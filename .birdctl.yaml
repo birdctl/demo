@@ -2,7 +2,11 @@ applications:
   WebApp:
     applicationName: WebApp
     deploymentTrain:
-      - name: Stage
+      - name: Staging
+        autoDeploy: true
+        deploymentFiles: []
+        version: 1
+      - name: Production
         autoDeploy: false
         deploymentFiles: []
         version: 1

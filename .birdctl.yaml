@@ -1,6 +1,10 @@
 applications:
-  "":
-    applicationName: ""
-    deploymentTrain: []
+  WebApp:
+    applicationName: WebApp
+    deploymentTrain:
+      - name: Stage
+        autoDeploy: false
+        deploymentFiles: []
+        version: 1
     version: 1
 version: 1

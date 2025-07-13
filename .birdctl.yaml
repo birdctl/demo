@@ -2,7 +2,7 @@ applications:
   WebApp:
     applicationName: WebApp
     deploymentTrain:
-      - name: Stagings
+      - name: Staging
         autoDeploy: true
         deploymentFiles: []
         version: 1
